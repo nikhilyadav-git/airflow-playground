@@ -12,6 +12,9 @@ __pycache__/
 # C extensions
 *.so
 
+# Airflow
+plugins/
+
 # Distribution / packaging
 .Python
 build/
@@ -42,6 +45,7 @@ into it.
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
+logs/
 
 # Unit test / coverage reports
 htmlcov/
@@ -137,7 +141,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
